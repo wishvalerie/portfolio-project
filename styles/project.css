@@ -52,10 +52,6 @@ p {
   padding: 15px 40px;
 }
 
-.project-images {
-  border-radius: 5px;
-}
-
 .project-description {
   padding: 120px 60px;
 }
@@ -67,6 +63,45 @@ p {
   font-size: 18px;
   line-height: 23px;
   padding: 15px 40px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section p {
+  margin-bottom: 0;
+}
+.more-information {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 15px 60px;
+}
+
+.about-image {
+  border-radius: 5px;
+}
+
+.services-section {
+  background-color: var(--secondary-color);
+  padding: 70px 50px;
+}
+
+.services-section p {
+  margin-bottom: 0;
+}
+
+.container-service {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 20px 30px;
+}
+.container-service h2 {
+  font-size: 22px;
+}
+.service-icon {
+  font-size: 30px;
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
@@ -86,5 +121,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
