@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   font-family: var(--heading-font-family);
-  font-size: 45px;
+  font-size: 42px;
   font-weight: 800;
 }
 
@@ -47,7 +47,7 @@ h3 {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 50px;
 }
 
 .btn-branding-outline {
@@ -69,12 +69,12 @@ h3 {
 
 .more-information {
   background-color: var(--secondary-color);
-  text-align: center;
+
   padding: 15px 60px;
 }
 
 .about-image {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .services-section {
@@ -149,6 +149,45 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .btn-branding {
+  margin-top: 19px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   nav ul {
     display: contents;
@@ -173,5 +212,19 @@ nav a {
   .content-container {
     text-align: center;
     padding: 30px 20px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  footer .btn-branding {
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 0;
+  }
+  footer .email-link {
+    font-size: 16px;
   }
 }
