@@ -188,6 +188,10 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.coder {
+  font-size: 13px;
+}
+
 @media (max-width: 960px) {
   nav ul {
     display: contents;
